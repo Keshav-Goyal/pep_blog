@@ -1,0 +1,66 @@
+*{
+    margin: 10px 5px;
+}
+
+.main_blog{
+    border-radius: 5px;
+    border: 5px;
+    padding-right: 10%;
+    box-shadow: 2px 2px gray;
+    background-color: lightgray;
+}
+.problem_statement{
+    margin-top: 15px;
+    line-height: 1.4rem;
+   
+}
+.problem_video{
+    display: flex;
+    margin-top: 0;
+}
+.problem_video>p{
+    flex: 1;
+   
+}
+.problem_video>iframe{
+    margin-left: 50px;
+}
+.sol_explain{
+    display: flex;
+    padding-right: 0;
+}
+.expaliner_img{
+    flex:300% ;
+}
+
+.code1{
+    /* display: block; */
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute; 
+    bottom: 20%; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    /* transition: .5s ease; */
+    opacity:0;
+  }
+  
+  .code1:hover .overlay {
+    opacity: 1;
+  }
+  .code2:hover .overlay {
+    opacity: 1;
+    bottom: 0%;
+    width: 40%;
+  }
+
+.problem_exp{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px white,
+                inset 3px 3px 5px gray;
+    /* background-color: black; */
+    
+}
