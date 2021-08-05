@@ -29,9 +29,9 @@
     display: flex;
     padding-right: 0;
 }
-.expaliner_img{
+/* .expaliner_img{
     flex:300% ;
-}
+} */
 
 .code1{
     /* display: block; */
@@ -40,11 +40,11 @@
 }
 .overlay {
     position: absolute; 
-    bottom: 20%; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    bottom: 10%;
     color: #f1f1f1; 
     /* transition: .5s ease; */
+    transform: translateY(200px);
+    transform: translateX(-50%);
     opacity:0;
   }
   
@@ -55,6 +55,7 @@
     opacity: 1;
     bottom: 0%;
     width: 40%;
+    transform: translateX(-70%);
   }
 
 .problem_exp{
